@@ -20,13 +20,13 @@ def main():
     try:
         age_int = int(age_string)
         if age_int > constants.MINIMUM_AGE and age_int < constants.MAXIMUM_AGE:
-            print("You are an acceptable age!")
+            print("You are an acceptable age.")
         elif age_int < constants.ZERO:
-            print("That is not a valid age!")
+            print("That is not a valid age.")
         else:
-            print("You are not an acceptable age!")
+            print("You are not an acceptable age.")
     except ValueError:
-        print("{0}, is not a valid input!".format(age_string))
+        print("{0}, is not a valid input.".format(age_string))
     finally:
         print("\nDone.")
 
