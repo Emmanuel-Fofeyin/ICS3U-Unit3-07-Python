@@ -26,7 +26,7 @@ def main():
         else:
             print("You are not an acceptable age.")
     except ValueError:
-        print("{0}, is not a valid input.".format(age_string))
+        print("{0}, is not valid input.".format(age_string))
     finally:
         print("\nDone.")
 
